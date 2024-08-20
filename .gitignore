@@ -1,0 +1,23 @@
+# Node.js genel geçici dosyaları
+/node_modules
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+# Local development config dosyaları
+.env
+
+# Cypress'ın kendi klasörü
+/cypress/screenshots
+/cypress/videos
+
+# Cypress yapılandırma dosyası
+/cypress.env.json
+
+# Cypress testlerinin çalışma zamanında oluşturduğu geçici dosyalar
+/cypress/downloads
+/cypress/coverage
+
+# Cypress yapılandırma dosyası olan cypress.json
+/cypress.json
+node_module
